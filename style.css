@@ -111,7 +111,7 @@ h2{
 text-align:center;
 font-size:40px;
 margin-bottom:45px;
-color:#f5f6f7;
+color:#1f5fd1;
 }
 
 /* FEATURES */
@@ -206,7 +206,7 @@ line-height:1.9;
 /* CONTACT */
 
 #contact{
-background:#1f5fd1;
+background:#eef4ff;
 text-align:center;
 }
 
@@ -233,7 +233,7 @@ resize:none;
 
 #contact button{
 background:#1f5fd1;
-color:rgb(158, 157, 167);
+color:white;
 padding:16px;
 font-size:18px;
 border:none;
@@ -245,6 +245,17 @@ transition:.3s;
 
 #contact button:hover{
 background:#f2b300;
+}
+
+.contact-container{
+display: flex;
+gap: 40px;
+align-items: flex-start;
+}
+
+.contact-form,
+.contact-info{
+flex: 1;
 }
 
 /* FOOTER */
@@ -290,17 +301,7 @@ font-size:32px;
 section{
 padding:55px 20px;
 }
-.contact-container{
-display: flex;
-gap: 40px;
-align-items: flex-start;
-}
 
-
-.contact-form,
-.contact-info{
-flex: 1;
-}
 
 /* FORM STYLING */
 .contact-form form{
