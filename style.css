@@ -290,5 +290,73 @@ font-size:32px;
 section{
 padding:55px 20px;
 }
+.contact-container{
+display: flex;
+gap: 40px;
+align-items: flex-start;
+}
+
+
+.contact-form,
+.contact-info{
+flex: 1;
+}
+
+/* FORM STYLING */
+.contact-form form{
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+/* INPUTS */
+.contact-form input,
+.contact-form textarea{
+padding: 14px;
+border-radius: 10px;
+border: 1px solid #ccc;
+font-size: 16px;
+}
+
+/* TEXTAREA SIZE */
+.contact-form textarea{
+height: 140px;
+resize: none;
+}
+
+/* BUTTON */
+.contact-form button{
+background: #f2b300;
+color: white;
+padding: 14px;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.contact-form button:hover{
+background: #d99d00;
+}
+
+/* CONTACT INFO CARDS */
+.contact-info .cards{
+display: grid;
+gap: 15px;
+}
+
+.contact-info .card{
+background: white;
+padding: 15px;
+border-radius: 12px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* MAP */
+.map-section iframe{
+border-radius: 15px;
+margin-top: 20px;
+} 
 
 }
