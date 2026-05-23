@@ -360,4 +360,43 @@ border-radius: 15px;
 margin-top: 20px;
 } 
 
+/* ACTIVE NAV LINK */
+
+nav ul li a.active{
+color:#f2b300;
+}
+
+/* SERVICES INTRO */
+
+.services-intro{
+text-align:center;
+max-width:800px;
+margin:auto;
+margin-bottom:40px;
+font-size:20px;
+color:#555;
+}
+
+/* CARD IMAGES */
+
+.card img{
+width:80px;
+height:80px;
+object-fit:contain;
+margin-bottom:20px;
+}
+
+/* SERVICE BUTTONS */
+
+.card .btn{
+margin-top:20px;
+font-size:16px;
+padding:12px 24px;
+}
+
+/* DIFFERENCE SECTION */
+
+.difference{
+background:#eef4ff;
+}
 }
